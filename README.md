@@ -63,10 +63,21 @@ Design-Exports und ungenutzte Bildvarianten liegen lokal unter `_quellen/` und
 sind bewusst **nicht** versioniert – sie werden für den Betrieb der Website
 nicht benötigt.
 
-## Offene inhaltliche Punkte
+## Rechtstexte
 
-Die Seite `/impressum-datenschutz/` ist unvollständig. Es fehlen die
-vertretungsberechtigte Person, die Umsatzsteuer-Identifikationsnummer und der
-vollständige Text der Datenschutzerklärung. Diese Angaben sind in Deutschland
-verpflichtend (§ 5 DDG, Art. 13 DSGVO) und sollten vor dem Umschalten der
-Domain rechtlich geprüft ergänzt werden.
+`/impressum-datenschutz/` enthält das vollständige Impressum nach § 5 DDG
+(Firmierung, Anschrift, Geschäftsführer, Registergericht, HRB, USt-IdNr.) und
+eine Datenschutzerklärung nach Art. 13 DSGVO.
+
+Bewusst **nicht** veröffentlicht sind Steuernummer und Bankverbindung: Beide
+sind für ein Impressum nicht vorgeschrieben, und öffentlich einsehbare
+Kontodaten erleichtern Rechnungsbetrug.
+
+Die Datenschutzerklärung beschreibt den tatsächlichen Stand der Website:
+keine Cookies, kein Tracking, lokal eingebundene Schriften, Hosting bei Vercel
+und Formularversand über Formspree. Ändert sich einer dieser Punkte, ist der
+Text anzupassen.
+
+Beide Texte sind von einer Fachperson prüfen zu lassen; sie ersetzen keine
+Rechtsberatung. Für Vercel und Formspree ist jeweils ein Vertrag zur
+Auftragsverarbeitung nach Art. 28 DSGVO abzuschließen.

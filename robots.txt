@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /impressum-datenschutz/
 
 Sitemap: https://www.ruhrtal-dienstleistungen.de/sitemap.xml
