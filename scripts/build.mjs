@@ -33,13 +33,21 @@ function readRoutes(html) {
 const routes = readRoutes(src);
 const routeKeys = Object.keys(routes);
 
-/* ------------------------------- Formspree ------------------------------- */
-const formId = (process.env.FORMSPREE_FORM_ID || '').trim();
+/* ------------------------------- Formspree -------------------------------
+   Die Form-ID ist kein Geheimnis: Sie steht zwangslaeufig im ausgelieferten
+   HTML und ist fuer jeden Besucher im Quelltext lesbar. Der Missbrauchsschutz
+   laeuft bei Formspree ueber Domainbindung und Spamfilter im Dashboard, nicht
+   ueber Geheimhaltung. Deshalb steht hier ein Standardwert, damit das Formular
+   ohne zusaetzliche Konfiguration sendet.
+   FORMSPREE_FORM_ID uebersteuert ihn, falls das Formular gewechselt wird –
+   dann genuegt ein Eintrag in den Vercel-Projekteinstellungen ohne Codeaenderung. */
+const FORMSPREE_STANDARD = 'xljrvoeb';
+const formId = (process.env.FORMSPREE_FORM_ID || FORMSPREE_STANDARD).trim();
+const formQuelle = process.env.FORMSPREE_FORM_ID ? 'FORMSPREE_FORM_ID' : 'Standardwert im Build';
 if (!formId) {
   warn.push(
-    'FORMSPREE_FORM_ID ist nicht gesetzt. Das Kontaktformular sendet nicht und zeigt ' +
-    'stattdessen Telefonnummer und E-Mail-Adresse an. Wert in Vercel unter ' +
-    'Settings -> Environment Variables hinterlegen.'
+    'Kein Formspree-Endpoint gesetzt. Das Kontaktformular sendet nicht und zeigt ' +
+    'stattdessen Telefonnummer und E-Mail-Adresse an.'
   );
 }
 
@@ -150,6 +158,6 @@ if (existsSync(sitemapPath)) {
 
 console.log(`Build fertig: ${routeKeys.length} Seiten nach dist/`);
 console.log(routeKeys.map(k => '  ' + routes[k].path).join('\n'));
-console.log(formId ? '\nFormspree: Endpoint aus FORMSPREE_FORM_ID eingesetzt.'
+console.log(formId ? `\nFormspree: Endpoint ${formId} eingesetzt (Quelle: ${formQuelle}).`
                    : '\nFormspree: kein Endpoint gesetzt.');
 if (warn.length) console.log('\nHinweise:\n' + warn.map(w => '  - ' + w).join('\n'));

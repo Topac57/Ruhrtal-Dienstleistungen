@@ -60,12 +60,20 @@ Eine bereits veröffentlichte Adresse lässt sich direkt prüfen:
 
 ## Umgebungsvariablen
 
-| Name | Beschreibung |
-|---|---|
-| `FORMSPREE_FORM_ID` | Formspree-Formular für das Kontaktformular auf `/kontakt/`. Reine Form-ID (`xdkogqvp`) oder vollständige URL (`https://formspree.io/f/xdkogqvp`). **Ohne diesen Wert sendet das Formular nicht**, sondern zeigt Telefonnummer und E-Mail-Adresse an. |
+| Name | Beschreibung | Pflicht |
+|---|---|---|
+| `FORMSPREE_FORM_ID` | Formspree-Formular für das Kontaktformular auf `/kontakt/`. Reine Form-ID oder vollständige Endpoint-URL. | nein |
 
-Einzutragen unter *Vercel → Project → Settings → Environment Variables* für
-Production, Preview und Development. Siehe `.env.example`.
+**Es ist keine Variable nötig, damit die Website läuft.** Der Build bringt eine
+funktionierende Form-ID mit (`FORMSPREE_STANDARD` in `scripts/build.mjs`).
+`FORMSPREE_FORM_ID` übersteuert sie und wird nur gebraucht, wenn auf ein
+anderes Formspree-Formular gewechselt werden soll — dann genügt ein Eintrag
+unter *Vercel → Project → Settings → Environment Variables*, ohne Codeänderung.
+
+Die Form-ID ist bewusst kein Geheimnis: Sie steht zwangsläufig im
+ausgelieferten HTML und ist im Quelltext lesbar. Formspree schützt das
+Formular über Domainbindung und Spamfilter im Dashboard, nicht über
+Geheimhaltung der ID.
 
 ## Deployment
 
