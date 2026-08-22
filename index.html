@@ -41,6 +41,13 @@
      Logo und Kopfzeile brauchen dort zusammen mehr Platz als vorhanden.
      Greift ausschliesslich unterhalb von 360px – auf allen gaengigen
      Geraeten bleibt die Kopfzeile unveraendert. */
+  /* Das Inhaltsverzeichnis der Leistungsseiten ist auf grossen Bildschirmen
+     eine mitlaufende Seitenspalte. Sobald das Layout umbricht (unterhalb von
+     rund 858px), steht es ueber dem Text – dann muss das Mitlaufen aus,
+     sonst ueberdeckt es den Inhalt beim Scrollen. */
+  @media (max-width:899px){
+    aside[aria-label="Inhalt dieser Seite"]{position:static !important;top:auto !important;width:100% !important}
+  }
   @media (max-width:359px){
     header[style*="sticky"] > div{gap:10px !important;padding-left:14px !important;padding-right:14px !important}
     header[style*="sticky"] a[aria-label] > img{width:46px !important;height:48px !important}
