@@ -1,0 +1,414 @@
+- generic [ref=f11e4]:
+  - link "Zum Inhalt springen" [ref=f11e5] [cursor=pointer]:
+    - /url: "#inhalt"
+  - banner [ref=f11e6]:
+    - generic [ref=f11e7]:
+      - link "Zur Startseite" [ref=f11e8] [cursor=pointer]:
+        - /url: /
+        - img "Ruhrtal Dienstleistungen" [ref=f11e9]
+        - generic [ref=f11e11]:
+          - generic [ref=f11e12]: RUHRTAL
+          - generic [ref=f11e13]: Dienstleistungen
+      - generic [ref=f11e14]:
+        - link "Anrufen" [ref=f11e15] [cursor=pointer]:
+          - /url: tel:+4917647883327
+        - button "Menü" [ref=f11e18] [cursor=pointer]
+  - main [ref=f11e22]:
+    - generic [ref=f11e23]:
+      - region [ref=f11e24]:
+        - generic [ref=f11e27]:
+          - navigation "Pfad" [ref=f11e28]:
+            - link "Start" [ref=f11e29] [cursor=pointer]:
+              - /url: /
+            - generic [ref=f11e30]: /
+            - link "Leistungen" [ref=f11e31] [cursor=pointer]:
+              - /url: /leistungen/
+            - generic [ref=f11e32]: /
+            - generic [ref=f11e33]: Baustellenservice
+          - generic [ref=f11e34]:
+            - generic [ref=f11e35]:
+              - generic [ref=f11e36]: Leistungsblatt · Schwerpunkt
+              - heading "Container- und Baustellenreinigung für Unternehmen in NRW." [level=1] [ref=f11e37]
+              - paragraph [ref=f11e38]: Raumcontainer im festen Turnus, Reinigung während der laufenden Bauphase und die Bauabschlussreinigung zur Übergabe. Ein Ansprechpartner, feste Intervalle, dokumentierte Abnahme.
+            - generic [ref=f11e39]:
+              - img "RD Baustellenservice" [ref=f11e41]
+              - generic [ref=f11e42]: Geschäftsbereich von Ruhrtal Dienstleistungen
+          - generic [ref=f11e43]:
+            - generic [ref=f11e44]:
+              - term [ref=f11e45]: 7 Containerarten
+              - definition [ref=f11e46]: Büro, Aufenthalt, Mannschaft, Umkleide, Sanitär, WC und Baustellencontainer
+            - generic [ref=f11e47]:
+              - term [ref=f11e48]: Fester oder flexibler Turnus
+              - definition [ref=f11e49]: Täglich, wöchentlich, nach vereinbartem Intervall oder kurzfristig nach Bedarf
+            - generic [ref=f11e50]:
+              - term [ref=f11e51]: Laufender Betrieb
+              - definition [ref=f11e52]: Reinigung während der Bauphase, auch außerhalb der Bauzeiten
+            - generic [ref=f11e53]:
+              - term [ref=f11e54]: NRW-weit
+              - definition [ref=f11e55]: Von Mülheim und Essen aus im gesamten Bundesland
+      - generic [ref=f11e57]:
+        - complementary "Inhalt dieser Seite" [ref=f11e58]:
+          - generic [ref=f11e59]: Auf dieser Seite
+          - list [ref=f11e60]:
+            - listitem [ref=f11e61]:
+              - link "01 Containerreinigung" [ref=f11e62] [cursor=pointer]:
+                - /url: "#rd-01"
+                - generic [ref=f11e63]: "01"
+                - generic [ref=f11e64]: Containerreinigung
+            - listitem [ref=f11e65]:
+              - link "02 Baustellenreinigung" [ref=f11e66] [cursor=pointer]:
+                - /url: "#rd-02"
+                - generic [ref=f11e67]: "02"
+                - generic [ref=f11e68]: Baustellenreinigung
+            - listitem [ref=f11e69]:
+              - link "03 Bauabschlussreinigung" [ref=f11e70] [cursor=pointer]:
+                - /url: "#rd-03"
+                - generic [ref=f11e71]: "03"
+                - generic [ref=f11e72]: Bauabschlussreinigung
+            - listitem [ref=f11e73]:
+              - link "04 Vorher & Nachher" [ref=f11e74] [cursor=pointer]:
+                - /url: "#rd-04"
+                - generic [ref=f11e75]: "04"
+                - generic [ref=f11e76]: Vorher & Nachher
+            - listitem [ref=f11e77]:
+              - link "05 Ablauf" [ref=f11e78] [cursor=pointer]:
+                - /url: "#rd-05"
+                - generic [ref=f11e79]: "05"
+                - generic [ref=f11e80]: Ablauf
+            - listitem [ref=f11e81]:
+              - link "06 Warum RD" [ref=f11e82] [cursor=pointer]:
+                - /url: "#rd-06"
+                - generic [ref=f11e83]: "06"
+                - generic [ref=f11e84]: Warum RD
+            - listitem [ref=f11e85]:
+              - link "07 Partnerbetriebe" [ref=f11e86] [cursor=pointer]:
+                - /url: "#rd-07"
+                - generic [ref=f11e87]: "07"
+                - generic [ref=f11e88]: Partnerbetriebe
+            - listitem [ref=f11e89]:
+              - link "08 Einsatzgebiet" [ref=f11e90] [cursor=pointer]:
+                - /url: "#rd-08"
+                - generic [ref=f11e91]: "08"
+                - generic [ref=f11e92]: Einsatzgebiet
+            - listitem [ref=f11e93]:
+              - link "09 Häufige Fragen" [ref=f11e94] [cursor=pointer]:
+                - /url: "#rd-09"
+                - generic [ref=f11e95]: "09"
+                - generic [ref=f11e96]: Häufige Fragen
+          - generic [ref=f11e97]:
+            - generic [ref=f11e98]: Fragen zum Turnus?
+            - link "0176 47883327" [ref=f11e99] [cursor=pointer]:
+              - /url: tel:+4917647883327
+            - generic [ref=f11e100]: Büro
+            - link "0208 78010000" [ref=f11e101] [cursor=pointer]:
+              - /url: tel:+4920878010000
+            - link "Anfrage senden" [ref=f11e102] [cursor=pointer]:
+              - /url: /kontakt/
+        - generic [ref=f11e103]:
+          - article [ref=f11e104]:
+            - generic [ref=f11e105]:
+              - generic [ref=f11e106]: "01"
+              - heading "Containerreinigung" [level=2] [ref=f11e107]
+            - paragraph [ref=f11e108]: Raumcontainer sind der Bereich, über den auf Baustellen am häufigsten diskutiert wird. Wir übernehmen die Reinigung vor der Erstnutzung, im laufenden Betrieb und bei der Rückgabe an den Vermieter.
+            - generic [ref=f11e109]:
+              - generic [ref=f11e110]:
+                - heading "Containerarten" [level=3] [ref=f11e111]
+                - list [ref=f11e112]:
+                  - listitem [ref=f11e113]: Baustellencontainer
+                  - listitem [ref=f11e114]: Bürocontainer
+                  - listitem [ref=f11e115]: Aufenthaltscontainer
+                  - listitem [ref=f11e116]: Mannschaftscontainer
+                  - listitem [ref=f11e117]: Sanitärcontainer
+                  - listitem [ref=f11e118]: WC-Container
+                  - listitem [ref=f11e119]: Umkleidecontainer
+              - generic [ref=f11e120]:
+                - heading "Reinigungsleistungen" [level=3] [ref=f11e121]
+                - list [ref=f11e122]:
+                  - listitem [ref=f11e123]: Regelmäßige Unterhaltsreinigung
+                  - listitem [ref=f11e124]: Grundreinigung
+                  - listitem [ref=f11e125]: Sanitär- und Duschreinigung inklusive Desinfektion
+                  - listitem [ref=f11e126]: Reinigung während laufender Bauprojekte
+                  - listitem [ref=f11e127]: Reinigung nach Bedarf oder festem Intervall
+                  - listitem [ref=f11e128]: Rückgabereinigung nach Mietende
+            - figure "Reinigung eines Baustellencontainers mit dem Hochdruckreiniger." [ref=f11e129]:
+              - generic [ref=f11e130]:
+                - img "Mitarbeiter reinigt einen Baustellencontainer mit dem Hochdruckreiniger" [ref=f11e131]
+                - generic: KI-generiert
+            - generic [ref=f11e133]:
+              - generic [ref=f11e134]:
+                - paragraph [ref=f11e135]: Reinigung im festen Intervall – täglich, wöchentlich oder nach Bedarf.
+                - paragraph [ref=f11e136]: Wir stimmen den Turnus auf Belegung und Bauphase ab. Bei Bedarf reinigen wir außerhalb der regulären Bauzeiten, damit der Ablauf auf der Baustelle nicht unterbrochen wird.
+              - link "Reinigungskonzept anfragen" [ref=f11e137] [cursor=pointer]:
+                - /url: /kontakt/
+          - article [ref=f11e140]:
+            - generic [ref=f11e141]:
+              - generic [ref=f11e142]: "02"
+              - heading "Baustellenreinigung" [level=2] [ref=f11e143]
+            - generic [ref=f11e144]:
+              - paragraph [ref=f11e145]: Während der Bauphase halten wir die Flächen in einem Zustand, in dem gearbeitet werden kann – im Turnus oder als Einzeleinsatz.
+              - list [ref=f11e146]:
+                - listitem [ref=f11e147]:
+                  - generic [ref=f11e150]: Verkehrswege, Treppenhäuser und Zugänge
+                - listitem [ref=f11e151]:
+                  - generic [ref=f11e154]: Bauabfall sammeln und zur Entsorgung bereitstellen
+                - listitem [ref=f11e155]:
+                  - generic [ref=f11e158]: Sanitärbereiche im vereinbarten Turnus
+                - listitem [ref=f11e159]:
+                  - generic [ref=f11e162]: Einsätze außerhalb der regulären Bauzeiten
+            - figure [ref=f11e163]:
+              - img "Zwei Mitarbeiter reinigen einen Aufenthaltscontainer auf der Baustelle" [ref=f11e164]
+              - generic: KI-generiert
+          - article [ref=f11e165]:
+            - generic [ref=f11e166]:
+              - generic [ref=f11e167]: "03"
+              - heading "Bauabschlussreinigung" [level=2] [ref=f11e168]
+            - generic [ref=f11e169]:
+              - paragraph [ref=f11e170]: "Nach Bau-, Umbau- und Renovierungsarbeiten: die Feinreinigung, die über die Abnahme entscheidet."
+              - list [ref=f11e171]:
+                - listitem [ref=f11e172]:
+                  - generic [ref=f11e175]: Grob- und Feinreinigung nach Gewerken
+                - listitem [ref=f11e176]:
+                  - generic [ref=f11e179]: Zementschleier, Farbspritzer und Klebereste
+                - listitem [ref=f11e180]:
+                  - generic [ref=f11e183]: Sanitär, Küchen und Einbauten
+                - listitem [ref=f11e184]:
+                  - generic [ref=f11e187]: Gemeinsame Abnahme, Fotodokumentation auf Wunsch
+            - figure [ref=f11e188]:
+              - img "Frisch gereinigter, glänzender Fliesenboden in einer fertiggestellten Wohnfläche, Nasssauger am Fenster" [ref=f11e189]
+            - paragraph [ref=f11e190]:
+              - link "Bauabschlussreinigung im Detail ansehen" [ref=f11e191] [cursor=pointer]:
+                - /url: /bauabschlussreinigung/
+          - article [ref=f11e195]:
+            - generic [ref=f11e196]:
+              - generic [ref=f11e197]: "04"
+              - heading "Vorher & Nachher" [level=2] [ref=f11e198]
+            - paragraph [ref=f11e199]: Regler ziehen und den Unterschied sehen. Alle Aufnahmen stammen aus laufenden Projekten unserer Auftraggeber.
+            - tablist "Projekte" [ref=f11e200]:
+              - tab "Aufenthaltscontainer" [selected] [ref=f11e201] [cursor=pointer]
+              - tab "Sanitärcontainer" [ref=f11e202] [cursor=pointer]
+            - generic [ref=f11e203]:
+              - generic [ref=f11e204]:
+                - img "Verschmutzter Aufenthaltscontainer mit staubigem Boden" [ref=f11e205]
+                - img "Derselbe Container nach der Reinigung mit sauberem Boden und Spindreihe" [ref=f11e207]
+                - generic [ref=f11e208]: Vorher
+                - generic [ref=f11e209]: Nachher
+                - slider "Vorher-Nachher-Vergleich" [ref=f11e211]
+              - generic [ref=f11e214]:
+                - heading "Umkleide- und Aufenthaltscontainer" [level=3] [ref=f11e215]
+                - paragraph [ref=f11e216]: Bauschutt, Staub und Verpackungsreste raus, Boden, Spinde und Fensterflächen gereinigt. Der Container war am Folgetag wieder in Betrieb.
+                - list [ref=f11e217]:
+                  - listitem [ref=f11e218]:
+                    - generic [ref=f11e221]: Boden nass gereinigt, Ecken und Kanten von Hand
+                  - listitem [ref=f11e222]:
+                    - generic [ref=f11e225]: Spinde innen und außen abgewischt
+                  - listitem [ref=f11e226]:
+                    - generic [ref=f11e229]: Abfall und Verpackungen fachgerecht entsorgt
+          - article [ref=f11e230]:
+            - generic [ref=f11e231]:
+              - generic [ref=f11e232]: "05"
+              - heading "Ablauf" [level=2] [ref=f11e233]
+            - paragraph [ref=f11e234]: Von der Anfrage bis zum festen Turnus – vier Schritte, ein Ansprechpartner.
+            - list [ref=f11e235]:
+              - listitem [ref=f11e236]:
+                - generic [ref=f11e237]: "01"
+                - generic [ref=f11e238]:
+                  - heading "Anfrage" [level=3] [ref=f11e239]
+                  - paragraph [ref=f11e240]: Standort, Anzahl der Container und gewünschtes Intervall genügen für den Start.
+              - listitem [ref=f11e241]:
+                - generic [ref=f11e242]: "02"
+                - generic [ref=f11e243]:
+                  - heading "Angebot" [level=3] [ref=f11e244]
+                  - paragraph [ref=f11e245]: Festpreis pro Einsatz oder Pauschale für den Turnus, in der Regel innerhalb von 24 Stunden.
+              - listitem [ref=f11e246]:
+                - generic [ref=f11e247]: "03"
+                - generic [ref=f11e248]:
+                  - heading "Einsatzplan" [level=3] [ref=f11e249]
+                  - paragraph [ref=f11e250]: Feste Termine, abgestimmt auf Bauablauf und Belegung der Container.
+              - listitem [ref=f11e251]:
+                - generic [ref=f11e252]: "04"
+                - generic [ref=f11e253]:
+                  - heading "Abnahme" [level=3] [ref=f11e254]
+                  - paragraph [ref=f11e255]: Kontrolle vor Ort mit der Bauleitung, Fotodokumentation auf Wunsch.
+          - article [ref=f11e256]:
+            - generic [ref=f11e257]:
+              - generic [ref=f11e258]: "06"
+              - heading "Warum RD Baustellenservice" [level=2] [ref=f11e259]
+            - paragraph [ref=f11e260]: Bauunternehmen, Generalunternehmer, Projektleitungen und Containervermieter arbeiten mit uns, weil die Abstimmung kurz und das Ergebnis überprüfbar ist.
+            - generic [ref=f11e261]:
+              - generic [ref=f11e268]:
+                - heading "Zuverlässige Einsatzplanung" [level=3] [ref=f11e269]
+                - paragraph [ref=f11e270]: Zugesagte Zeitfenster gelten. Änderungen im Bauablauf stimmen wir vorher ab, nicht danach.
+              - generic [ref=f11e278]:
+                - heading "Reinigung im festen Intervall" [level=3] [ref=f11e279]
+                - paragraph [ref=f11e280]: Täglich, wöchentlich oder monatlich – abgestimmt auf Belegung und Bauphase.
+              - generic [ref=f11e286]:
+                - heading "Flexibel bei laufenden Baustellen" [level=3] [ref=f11e287]
+                - paragraph [ref=f11e288]: Wir arbeiten parallel zum Baubetrieb, ohne die anderen Gewerke aufzuhalten.
+              - generic [ref=f11e293]:
+                - heading "Feste Ansprechpartner" [level=3] [ref=f11e294]
+                - paragraph [ref=f11e295]: Eine Nummer vom Angebot bis zur Abnahme – ohne Warteschleife und ohne Weiterreichen.
+              - generic [ref=f11e303]:
+                - heading "Professionelles Auftreten" [level=3] [ref=f11e304]
+                - paragraph [ref=f11e305]: Eingewiesenes Personal, eigene Geräte, Arbeitskleidung und Anmeldung auf der Baustelle.
+              - generic [ref=f11e311]:
+                - heading "Einsatz im Raum NRW" [level=3] [ref=f11e312]
+                - paragraph [ref=f11e313]: Von Mülheim und Essen aus im gesamten Ruhrgebiet und Rheinland.
+              - generic [ref=f11e320]:
+                - heading "Lösungen für große Projekte" [level=3] [ref=f11e321]
+                - paragraph [ref=f11e322]: Mehrere Standorte, hohe Containerzahlen und Sonderintervalle nach Absprache.
+          - article [ref=f11e323]:
+            - generic [ref=f11e324]:
+              - generic [ref=f11e325]: "07"
+              - heading "Ausgewählte Partnerbetriebe" [level=2] [ref=f11e326]
+            - paragraph [ref=f11e327]: Bei großen Objekten, mehreren Standorten und engen Terminen arbeiten wir mit einem festen Kreis ausgewählter Unternehmen zusammen – dieselben Betriebe über Jahre, nicht wechselnde Anbieter von Auftrag zu Auftrag. Eingewiesen werden sie von uns, gearbeitet wird nach unseren Vorgaben.
+            - generic [ref=f11e328]:
+              - generic [ref=f11e329]:
+                - heading "Wie wir zusammenarbeiten" [level=3] [ref=f11e330]
+                - list [ref=f11e331]:
+                  - listitem [ref=f11e332]:
+                    - generic [ref=f11e335]: Fester Kreis ausgewählter Betriebe, dauerhaft dieselben Ansprechpartner
+                  - listitem [ref=f11e336]:
+                    - generic [ref=f11e339]: Einweisung, Arbeitskleidung und Anmeldung auf der Baustelle wie im eigenen Team
+                  - listitem [ref=f11e340]:
+                    - generic [ref=f11e343]: Einsatzplanung, Kontrolle und Abnahme bleiben bei Ruhrtal Dienstleistungen
+                  - listitem [ref=f11e344]:
+                    - generic [ref=f11e347]: Nachweise der eingesetzten Betriebe legen wir auf Wunsch vor
+              - generic [ref=f11e348]:
+                - heading "Was Sie davon haben" [level=3] [ref=f11e349]
+                - list [ref=f11e350]:
+                  - listitem [ref=f11e351]:
+                    - generic [ref=f11e354]: Kapazität für hohe Containerzahlen und parallele Baustellen
+                  - listitem [ref=f11e355]:
+                    - generic [ref=f11e358]: Kurzfristige Einsätze auch in Spitzenzeiten
+                  - listitem [ref=f11e359]:
+                    - generic [ref=f11e362]: Ein Angebot, eine Rechnung, ein Ansprechpartner
+                  - listitem [ref=f11e363]:
+                    - generic [ref=f11e366]: Gleicher Leistungsumfang und gleicher Standard an jedem Standort
+            - generic [ref=f11e367]:
+              - paragraph [ref=f11e368]: Die Verantwortung bleibt bei uns.
+              - paragraph [ref=f11e369]: "Wer zusätzlich vor Ort ist, ändert nichts an Ihrer Ansprechperson und nichts an der Abnahme: Das Ergebnis kontrollieren wir gemeinsam mit der Bauleitung, und dafür stehen wir ein. Auf Wunsch nennen wir vorab, welche Betriebe auf Ihrem Objekt eingesetzt werden."
+          - article [ref=f11e370]:
+            - generic [ref=f11e371]:
+              - generic [ref=f11e372]: "08"
+              - 'heading "Einsatzgebiet: Essen, Ruhrgebiet und NRW" [level=2] [ref=f11e373]'
+            - paragraph [ref=f11e374]: Unser Standort ist Mülheim an der Ruhr, der Schwerpunkt liegt in Essen und im übrigen Ruhrgebiet. Baustellen im Rheinland und im weiteren Nordrhein-Westfalen übernehmen wir ebenfalls – bei mehreren Standorten in einem gemeinsamen Einsatzplan.
+            - list [ref=f11e375]:
+              - listitem [ref=f11e376]: Essen
+              - listitem [ref=f11e377]: Mülheim an der Ruhr
+              - listitem [ref=f11e378]: Duisburg
+              - listitem [ref=f11e379]: Oberhausen
+              - listitem [ref=f11e380]: Bochum
+              - listitem [ref=f11e381]: Gelsenkirchen
+              - listitem [ref=f11e382]: Düsseldorf
+              - listitem [ref=f11e383]: Dortmund
+              - listitem [ref=f11e384]: Wuppertal
+              - listitem [ref=f11e385]: Krefeld
+              - listitem [ref=f11e386]: Bottrop
+              - listitem [ref=f11e387]: Velbert
+              - listitem [ref=f11e388]: weitere Orte in NRW auf Anfrage
+          - article [ref=f11e389]:
+            - generic [ref=f11e390]:
+              - generic [ref=f11e391]: "09"
+              - heading "Häufige Fragen zur Containerreinigung" [level=2] [ref=f11e392]
+            - generic [ref=f11e393]:
+              - group [ref=f11e394]:
+                - generic "Welche Container reinigen Sie?" [ref=f11e395] [cursor=pointer]
+              - group [ref=f11e399]:
+                - generic "Bieten Sie regelmäßige Containerreinigung im festen Intervall an?" [ref=f11e400] [cursor=pointer]
+              - group [ref=f11e404]:
+                - generic "Reinigen Sie auch Sanitär- und WC-Container?" [ref=f11e405] [cursor=pointer]
+              - group [ref=f11e409]:
+                - generic "In welchen Regionen sind Sie im Einsatz?" [ref=f11e410] [cursor=pointer]
+              - group [ref=f11e414]:
+                - generic "Können mehrere Container oder mehrere Baustellen gleichzeitig betreut werden?" [ref=f11e415] [cursor=pointer]
+              - group [ref=f11e419]:
+                - generic "Arbeiten Sie mit Partnerbetrieben?" [ref=f11e420] [cursor=pointer]
+              - group [ref=f11e424]:
+                - generic "Reinigen Sie auch während des laufenden Baubetriebs?" [ref=f11e425] [cursor=pointer]
+              - group [ref=f11e429]:
+                - generic "Wie schnell erhalte ich ein Angebot?" [ref=f11e430] [cursor=pointer]
+              - group [ref=f11e434]:
+                - generic "Was kostet die Reinigung eines Baustellencontainers?" [ref=f11e435] [cursor=pointer]
+          - generic [ref=f11e439]:
+            - img "RD Baustellenservice" [ref=f11e441]
+            - paragraph [ref=f11e442]:
+              - strong [ref=f11e443]: RD Baustellenservice
+              - text: ist der spezialisierte Geschäftsbereich für Baustellen- und Containerreinigung von Ruhrtal Dienstleistungen. Anfragen, Angebote, Verträge und Rechnungen laufen über Ruhrtal Dienstleistungen, Am Schloss Broich 31 in Mülheim an der Ruhr.
+            - link "Über Ruhrtal Dienstleistungen" [ref=f11e444] [cursor=pointer]:
+              - /url: /ueber-uns/
+      - region [ref=f11e445]:
+        - generic [ref=f11e446]:
+          - generic [ref=f11e447]:
+            - heading "Standort, Anzahl der Container, Intervall." [level=2] [ref=f11e448]
+            - paragraph [ref=f11e449]: Mehr brauchen wir nicht für ein Angebot – in der Regel innerhalb von 24 Stunden.
+          - generic [ref=f11e450]:
+            - link "0176 47883327" [ref=f11e451] [cursor=pointer]:
+              - /url: tel:+4917647883327
+            - link "Anfrageformular" [ref=f11e454] [cursor=pointer]:
+              - /url: /kontakt/
+  - contentinfo [ref=f11e457]:
+    - generic [ref=f11e458]:
+      - generic [ref=f11e459]:
+        - generic [ref=f11e462]:
+          - generic [ref=f11e463]: RUHRTAL
+          - generic [ref=f11e464]: Dienstleistungen
+        - paragraph [ref=f11e465]: Baustellenservice, Containerreinigung und Glasreinigung für Unternehmen und Privatkunden in ganz NRW.
+        - paragraph [ref=f11e466]: RD Baustellenservice ist der spezialisierte Geschäftsbereich für Baustellen- und Containerreinigung von Ruhrtal Dienstleistungen.
+      - generic [ref=f11e467]:
+        - heading "Leistungen" [level=3] [ref=f11e468]
+        - list [ref=f11e469]:
+          - listitem [ref=f11e470]:
+            - link "RD Baustellenservice" [ref=f11e471] [cursor=pointer]:
+              - /url: /baustellenservice-containerreinigung/
+          - listitem [ref=f11e473]:
+            - link "Baustellenservice & Containerreinigung" [ref=f11e474] [cursor=pointer]:
+              - /url: /baustellenservice-containerreinigung/
+          - listitem [ref=f11e475]:
+            - link "Glasreinigung" [ref=f11e476] [cursor=pointer]:
+              - /url: /glasreinigung/
+          - listitem [ref=f11e477]:
+            - link "Bauabschlussreinigung" [ref=f11e478] [cursor=pointer]:
+              - /url: /bauabschlussreinigung/
+          - listitem [ref=f11e479]:
+            - link "Grünflächenpflege" [ref=f11e480] [cursor=pointer]:
+              - /url: /gruenflaechenpflege/
+          - listitem [ref=f11e481]:
+            - link "Entrümpelungen" [ref=f11e482] [cursor=pointer]:
+              - /url: /entruempelung/
+          - listitem [ref=f11e483]:
+            - link "Montage- und Aufbauarbeiten" [ref=f11e484] [cursor=pointer]:
+              - /url: /montage-aufbau/
+      - generic [ref=f11e485]:
+        - heading "Navigation" [level=3] [ref=f11e486]
+        - list [ref=f11e487]:
+          - listitem [ref=f11e488]:
+            - link "Start" [ref=f11e489] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f11e490]:
+            - link "Baustellenservice" [ref=f11e491] [cursor=pointer]:
+              - /url: /baustellenservice-containerreinigung/
+          - listitem [ref=f11e492]:
+            - link "Leistungen" [ref=f11e493] [cursor=pointer]:
+              - /url: /leistungen/
+          - listitem [ref=f11e494]:
+            - link "Über uns" [ref=f11e495] [cursor=pointer]:
+              - /url: /ueber-uns/
+          - listitem [ref=f11e496]:
+            - link "Kontakt" [ref=f11e497] [cursor=pointer]:
+              - /url: /kontakt/
+          - listitem [ref=f11e498]:
+            - link "Impressum & Datenschutz" [ref=f11e499] [cursor=pointer]:
+              - /url: /impressum-datenschutz/
+      - generic [ref=f11e500]:
+        - heading "Kontakt" [level=3] [ref=f11e501]
+        - list [ref=f11e502]:
+          - listitem [ref=f11e503]: Am Schloss Broich 3145479 Mülheim an der Ruhr
+          - listitem [ref=f11e504]:
+            - link "0176 47883327" [ref=f11e505] [cursor=pointer]:
+              - /url: tel:+4917647883327
+          - listitem [ref=f11e506]:
+            - link "info@ruhrtal-dienstleistungen.de" [ref=f11e507] [cursor=pointer]:
+              - /url: mailto:info@ruhrtal-dienstleistungen.de
+    - generic [ref=f11e509]:
+      - generic [ref=f11e510]: © 2026 Ruhrtal Dienstleistungen
+      - generic [ref=f11e511]: Essen · Mülheim an der Ruhr · NRW-weit

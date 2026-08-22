@@ -42,6 +42,22 @@ npm run preview   # baut und startet http://localhost:4174
 
 Es gibt keine Abhängigkeiten – `npm install` legt nichts an.
 
+### Layout prüfen
+
+`npm run layout-check` öffnet die Seiten in einem echten Browser und meldet
+überbreite Seiten sowie Elemente, die andere überdecken. Der zweite Fall ist
+der wichtigere: Ein mitlaufender Block kann sich beim Scrollen über den Text
+legen, ohne die Seite je zu breit zu machen. Braucht einmalig Playwright,
+das bewusst keine Projektabhängigkeit ist:
+
+```bash
+npx --yes playwright@latest install chromium
+```
+
+Der Server muss dabei laufen (`npm run preview` in einem zweiten Fenster).
+Eine bereits veröffentlichte Adresse lässt sich direkt prüfen:
+`node scripts/layout-check.mjs https://ruhrtal-dienstleistungen.vercel.app`
+
 ## Umgebungsvariablen
 
 | Name | Beschreibung |
