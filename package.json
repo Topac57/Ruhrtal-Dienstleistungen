@@ -1,0 +1,16 @@
+{
+  "name": "ruhrtal-dienstleistungen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website der Ruhrtal Dienstleistungen, Mülheim an der Ruhr – Baustellenservice, Containerreinigung und Gebäudereinigung in NRW.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "npm run build && node scripts/serve.mjs dist"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

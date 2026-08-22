@@ -1,0 +1,36 @@
+# Abhängigkeiten
+node_modules/
+
+# Build-Ergebnis (wird von Vercel bei jedem Deployment neu erzeugt)
+dist/
+
+# Zugangsdaten und Umgebungsvariablen – gehören ausschließlich in die
+# Vercel-Projekteinstellungen, niemals ins Repository
+.env
+.env.*
+!.env.example
+
+# Vercel-Lokaldaten
+.vercel/
+
+# Rohmaterial und Design-Export-Reste.
+# Bleiben lokal erhalten, gehören aber nicht in das Website-Repository:
+# Originalfotos, Logo-Quelldateien (.ai/.pdf), Editor-Uploads, ZIP-Export.
+_quellen/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editoren
+.vscode/
+.idea/
+*.swp
+
+# Logs und temporäre Dateien
+*.log
+npm-debug.log*
+.cache/
+tmp/
