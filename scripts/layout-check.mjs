@@ -26,6 +26,10 @@ catch { console.error('Playwright fehlt. Einmalig: npx --yes playwright@latest i
 const pruefeSeite = async (page) => page.evaluate(async () => {
   const probleme = [];
   const vw = innerWidth;
+  // Ein offener Dialog liegt als Vollbild-Overlay ueber allem und wuerde jede
+  // Seite als "verdeckt" melden. Vor der Messung also schliessen.
+  window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
+  await new Promise(s => setTimeout(s, 250));
   if (document.documentElement.scrollWidth > vw + 1)
     probleme.push(`ueberbreite: +${document.documentElement.scrollWidth - vw}px`);
   const hoehe = document.body.scrollHeight;
