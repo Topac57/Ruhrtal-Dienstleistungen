@@ -24,6 +24,9 @@ _quellen/
 .Spotlight-V100
 .Trashes
 
+# Artefakte der Browser-Layoutprüfung
+.playwright-mcp/
+
 # Editoren
 .vscode/
 .idea/
